@@ -1,0 +1,138 @@
+
+
+.start-slide {
+    justify-content: center;
+    align-items: center;
+}
+
+.get-result-button{
+background: #7c8cb4;
+font-family: "RobotoCondensed-Bold" !important;
+float: none;
+margin-bottom: 10px;
+}
+
+.go-back-button{
+border: none;
+outline: none;
+background: transparent;
+float: left;
+    }
+
+.info-label{
+    font-family: "RobotoCondensed-Bold" !important;
+    color: white;
+}
+
+.icono {
+    position: absolute;
+    margin-top: 4px;
+    left: 8px;
+}
+
+.instrucciones{
+font-family: "RobotoCondensed-Regular" !important;
+font-size: 21px;
+color: #000;
+text-align: left;
+margin-left: 10px;
+text-justify: inter-word;
+}
+
+.title{
+margin-top: 10px;
+font-family: "RobotoCondensed-Bold" !important;
+font-size: 23px;
+opacity: .8;
+color: #000;
+display: block;
+}
+
+
+
+.current-question{
+font-family: "RobotoCondensed-Light" !important;
+float: left;
+margin-top: 10px;
+}
+
+
+.inner{
+display:inline-block;
+width:100%;
+}
+
+ion-card{
+padding-left: 15px;
+padding-right: 15px;
+width: 100% !important;
+margin: 0 !important; 
+}
+
+.instruction-img{
+margin-top: 5px;
+height: 150px;
+width: 250px;
+margin-left: 35px;
+}
+
+
+.card-results{
+background: rgba(255,255,255,0.7);
+width:100% !important;
+padding-left: 10px;
+margin-bottom: 10px !important;     
+
+}
+
+.scroll-content{
+margin-top: 5px !important;
+overflow-y: auto;
+padding-top: 1px;
+padding-bottom: 1px;
+}
+
+.text-results{
+font-family: "RobotoCondensed-Regular" !important;
+font-size: 17px;
+margin-top: 30px;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.results-summary{
+background: rgba(128, 140, 178, 1);
+font-family: "RobotoCondensed-Bold" !important;
+font-size: 25px;
+}
+
+.results-title{
+    margin-left: 100px;
+    margin-top: 6px;
+    color: white;
+}
+
+.score{
+font-family: "RobotoCondensed-Bold" !important;
+font-size: 20px;
+margin-right: 20px;
+float: right;
+}
+
+.answers-result{
+font-family: "RobotoCondensed-Bold" !important;
+font-size: 16px !important;
+margin-top: 5px;
+float: left;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.answers-correct{
+font-family: "RobotoCondensed-Bold" !important;
+font-size: 16px !important;
+margin-top: -5px;
+float: left;
+margin-left: 10px;
+margin-right: 10px;
+}

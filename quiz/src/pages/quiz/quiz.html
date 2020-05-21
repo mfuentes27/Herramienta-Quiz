@@ -1,0 +1,114 @@
+<ion-content>
+    <ion-slides #slides>
+        <ion-slide [options]="{onlyExternal: false}" class="start-slide">
+            <ion-card>
+                <ion-card-subtitle class="title">Instrucciones</ion-card-subtitle>
+                <ion-img style="background: transparent !important" class="instruction-img"
+                    src='assets/imgs/instructions.png'>
+                </ion-img>
+                <ion-card-title class="instrucciones">⦿ Se mostrarán 10 preguntas de tres niveles
+                    diferentes.
+                    <br>⦿ Tendrás una hora para responder.
+                    <br>⦿ Tendrás dos oportunidades para responder el quiz.
+                    <br>⦿ Es posible retroceder para cambiar tus respuestas.
+                    <br>⦿ Al final se mostrarán tus resultados.
+                </ion-card-title>
+                <button ion-button class="get-quiz-button" round small (click)="checkOpportunities()">Empezar Quiz</button>
+                
+            </ion-card>
+        </ion-slide>
+
+        <ion-slide *ngFor="let question of questions; let i = index;">
+            <ion-row>
+                <div class="inner">
+                    <p class="pregunta-rango">P {{i+1}}/10</p>
+                    <svg id="progress-circle" width="12vh" height="12vh" viewBox="10 10 200 200">
+                        <linearGradient id="linearColors1" x1="0" y1="0" x2="1" y2="1">
+                            <stop offset="0%" stop-color="#6b6090"></stop>
+                            <stop offset="100%" stop-color="#afc9d1"></stop>
+                        </linearGradient>
+                        <circle cx="60%" cy="50%" [attr.r]="circleR" fill="none" stroke="#f5edef" stroke-width="12" />
+                        <circle cx="60%" cy="50%" [attr.r]="circleR" fill="none" stroke="url(#linearColors1)"
+                            stroke-width="12" stroke-linecap="round" [attr.stroke-dasharray]="circleDasharray"
+                            [attr.stroke-dashoffset]="percentageOffset(percent | async)" />
+                        <text x="50%" y="50%" class="timer-text">{{time | async}}</text>
+                    </svg>
+                    <div class="level">
+                        <ion-icon *ngIf="showEasyLevel" class="facil" name="flash" style="zoom:1.2;"></ion-icon>
+                        <ion-icon *ngIf="showMediumLevel" class="medio" name="flash" style="zoom:1.2;"></ion-icon>
+                        <ion-icon *ngIf="showHardLevel" class="dificil" name="flash" style="zoom:1.2;"></ion-icon>
+                    </div>
+                </div>
+            </ion-row>
+
+            <ion-card class="ion-card-question">
+                <ion-card-subtitle class="current-question">Pregunta {{i+1}}</ion-card-subtitle>
+                <ion-card-title class="pregunta">{{question.questionText}}</ion-card-title>
+            </ion-card>
+
+            <ion-card class="ion-card-answers">
+                <ion-list radio-group>
+                    <ion-item text-wrap *ngFor="let answer of question.answers; let i = index;">
+                        <ion-label class="respuestas">{{answer.answer}}</ion-label>
+                        <ion-radio (click)="selectAnswer(answer, question)" [checked]="answer.selected"
+                            [disabled]="hasAnswered"></ion-radio>
+                    </ion-item>
+                </ion-list>
+            </ion-card>
+            <div>
+                <img *ngIf="showPreviousArrow" class="previous-arrow" src='assets/imgs/previous-arrow.png'
+                    (click)="previousSlide()">
+                <img *ngIf="showNextArrow" class="next-arrow" src='assets/imgs/next-arrow.png' (click)="nextSlide()">
+            </div>
+            <button ion-button *ngIf="showResults" class="get-results-button" round (click)="getResults()">Terminar
+                Quiz</button>
+        </ion-slide>
+
+
+        <ion-slide>
+            <ion-header>
+                <ion-card class="results-summary">
+                    <ion-card-title style="margin-top: 10px; color:white;">Resultados</ion-card-title>
+                    <ion-card-content>
+                        <ion-row style="margin-top: -20px;">
+                            <ion-label style="color: white; font-family: RobotoCondensed-Bold !important;">{{score}}</ion-label>
+                            <ion-label style="color: white; font-family: RobotoCondensed-Bold !important;">{{opportunity}}/2</ion-label>
+                        </ion-row>
+                        <ion-row style="margin-top: -20px;">
+                            <ion-label style="color: white; font-family: RobotoCondensed-Bold !important;">Puntaje</ion-label>
+                            <ion-label style="color: white; font-family: RobotoCondensed-Bold !important;">Oportunidad</ion-label>
+                        </ion-row>
+                    </ion-card-content>
+                </ion-card>
+            </ion-header>
+
+            <ion-list class="scroll-content">
+                <div style="margin-top: 140px;">
+
+
+                    <ion-card class="card-results" *ngFor="let result of results; let i = index;">
+                        <ion-card-subtitle class="current-question">Pregunta {{i+1}}</ion-card-subtitle>
+                        <ion-card-subtitle class="current-veredict">{{result.result_veredict}}</ion-card-subtitle>
+                        <ion-icon [ngStyle]="{'color': result.result_veredict === 'Correcta' ? 'green' : 'red'}"
+                        
+                            name="{{result.result_icon}}" style="zoom:1.2;" item-end></ion-icon>
+                        <ion-card-title class="text-results">{{result.question_text}}</ion-card-title>
+                        <ion-card-content>
+                            <ion-list>
+                                <ion-row>
+                                    <div class="inner">
+                                        <ion-label class="answers-result" text-wrap>Respuesta seleccionada:
+                                            {{result.user_answer}}</ion-label>
+                                    </div>
+                                </ion-row>
+                                <ion-label class="answers-correct" text-wrap>Respuesta correcta:
+                                    {{result.question_answer}}</ion-label>
+                            </ion-list>
+                        </ion-card-content>
+                    </ion-card>
+                </div>
+            </ion-list>
+
+        </ion-slide>
+    </ion-slides>
+</ion-content>

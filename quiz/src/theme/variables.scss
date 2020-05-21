@@ -1,0 +1,125 @@
+// Ionic Variables and Theming. For more info, please see:
+// http://ionicframework.com/docs/theming/
+
+// Font path is used to include ionicons,
+// roboto, and noto sans fonts
+$font-path: "../assets/fonts";
+
+
+// The app direction is used to include
+// rtl styles in your app. For more info, please see:
+// http://ionicframework.com/docs/theming/rtl-support/
+$app-direction: ltr;
+
+
+@import "ionic.globals";
+
+
+// Shared Variables
+// --------------------------------------------------
+// To customize the look and feel of this app, you can override
+// the Sass variables found in Ionic's source scss files.
+// To view all the possible Ionic variables, see:
+// http://ionicframework.com/docs/theming/overriding-ionic-variables/
+
+
+
+
+// Named Color Variables
+// --------------------------------------------------
+// Named colors makes it easy to reuse colors on various components.
+// It's highly recommended to change the default colors
+// to match your app's branding. Ionic uses a Sass map of
+// colors so you can add, rename and remove colors as needed.
+// The "primary" color is the only required color in the map.
+
+$colors: (
+  primary:    #dc7a89,
+  secondary:  #32db64,
+  danger:     #f53d3d,
+  light:      #f4f4f4,
+  dark:       #222
+);
+
+$text-color:        #222;
+$background-color:  #f4f4f4;
+
+
+
+$theme-color: #ffce00;
+$theme-black: #000000;
+$ion-color-gray: #d7d8da;
+
+
+
+
+// App Theme
+// --------------------------------------------------
+// Ionic apps can have different themes applied, which can
+// then be future customized. This import comes last
+// so that the above variables are used and Ionic's
+// default are overridden.
+
+@import "ionic.theme.default";
+
+
+// Ionicons
+// --------------------------------------------------
+// The premium icon font for Ionic. For more info, please see:
+// http://ionicframework.com/docs/ionicons/
+
+@import "ionic.ionicons";
+
+
+// Fonts
+// --------------------------------------------------
+
+
+
+@font-face{
+  font-family: 'RobotoCondensed-Bold';
+  src: url('../assets/fonts/Roboto_Condensed/RobotoCondensed-Bold.ttf');
+}
+
+@font-face{
+  font-family: 'RobotoCondensed-Regular';
+  src: url('../assets/fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf');
+}
+
+@font-face{
+  font-family: 'RobotoCondensed-Light';
+  src: url('../assets/fonts/Roboto_Condensed/RobotoCondensed-Light.ttf');
+}
+
+@media(min-height: 319px){
+  .center{
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    -webkit-transform: translate(-49%, -49%);
+    transform: translate(-49%, -49%);
+    width: 90%
+  }
+}
+
+@media(min-height: 735px){
+  .center{
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    -webkit-transform: translate(-49%, -49%);
+    transform: translate(-49%, -49%);
+    width: 90%
+  }
+}
+
+@media(min-height: 812px){
+  .center{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    -webkit-transform: translate(-49%, -49%);
+    transform: translate(-49%, -49%);
+    width: 90%
+  }
+}

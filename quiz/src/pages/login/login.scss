@@ -1,0 +1,53 @@
+.ios, .md{
+
+    [heading-column-lr]{
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+[big-heading]{
+    font-family: "RobotoCondensed-Bold" !important;
+    font-size: 30 px !important;
+    color: #000000;
+}
+
+ion-label{
+    font-family: "RobotoCondensed-Regular" !important;
+    color: #000;
+    opacity: .8;
+    font-size: 13px;
+    display: block;
+}
+
+ion-content{
+    background-image: url("../assets/imgs/background.png");
+    background-size: cover;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+}
+
+.login-button{
+    background: #7c8cb4;
+    float: none;
+    font-family: "RobotoCondensed-Bold" !important;
+}
+
+ion-input{
+    font-family: "RobotoCondensed-Regular" !important;
+    color: #000;
+    font-size: 15px;
+}
+
+[linespace]{
+    height: 15px;
+}
+
+.user{
+    background-color: #f5edef;
+    color: #fff;
+    display: block;
+}
+
+}

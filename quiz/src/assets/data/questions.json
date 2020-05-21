@@ -1,0 +1,614 @@
+{
+	"questions": [
+		{
+			"questionText": "¿Cuál es el valor de la moda para el siguiente conjunto de datos: 4, 2, 6, 8, 7, 4, 3, 4, 7?",
+			"answers": [
+				{"answer": "4", "correct": true, "selected": false},
+				{"answer": "5", "correct": false, "selected": false},
+				{"answer": "6", "correct": false, "selected": false},
+				{"answer": "7", "correct": false, "selected": false}
+			],
+			"level": "Fácil"
+		},
+		{
+			"questionText": "¿Cuál es el valor de la media para el siguiente conjunto de datos: 4, 2, 6, 8, 7, 4, 3, 4, 7?",
+			"answers": [
+				{"answer": "4", "correct": false, "selected": false},
+				{"answer": "5", "correct": true, "selected": false},
+				{"answer": "6", "correct": false, "selected": false},
+				{"answer": "7", "correct": false, "selected": false}
+			],
+			"level": "Fácil"
+		},
+		{
+			"questionText": "¿Cuál es el valor de la mediana para el siguiente conjunto de datos: 4, 2, 6, 8, 7, 4, 3, 4, 7?",
+			"answers": [
+				{"answer": "4", "correct": true, "selected": false},
+				{"answer": "5", "correct": false, "selected": false},
+				{"answer": "6", "correct": false, "selected": false},
+				{"answer": "7", "correct": false, "selected": false}	
+			],
+			"level": "Fácil"
+		},
+		{
+			"questionText": "¿Cuál es el valor del rango para el siguiente conjunto de datos: 4, 2, 6, 8, 7, 4, 3, 4, 7?",
+			"answers": [
+				{"answer": "4", "correct": false, "selected": false},
+				{"answer": "5", "correct": false, "selected": false},
+				{"answer": "6", "correct": true, "selected": false},
+				{"answer": "7", "correct": false, "selected": false}	
+			],
+			"level": "Fácil"
+		},
+		{
+			"questionText": "Las calificaciones de seis estudiantes son 84, 91, 72, 68, 87 y 78. ¿Cuál es el valor de la mediana?",
+			"answers": [
+				{"answer": "84", "correct": false, "selected": false},
+				{"answer": "78", "correct": false, "selected": false},
+				{"answer": "80", "correct": false, "selected": false},
+				{"answer": "81", "correct": true, "selected": false}	
+			],
+			"level": "Fácil"
+		},
+		{
+			"questionText": "Las calificaciones de seis estudiantes son 84, 91, 72, 68, 87 y 78. ¿Cuál es el valor del rango?",
+			"answers": [
+				{"answer": "16", "correct": false, "selected": false},
+				{"answer": "19", "correct": false, "selected": false},
+				{"answer": "23", "correct": true, "selected": false},
+				{"answer": "13", "correct": false, "selected": false}	
+			],
+			"level": "Fácil"
+		},
+		{
+			"questionText": "Las calificaciones de seis estudiantes son 84, 91, 72, 68, 87 y 78. ¿Cuál es el valor del promedio?",
+			"answers": [
+				{"answer": "75", "correct": false, "selected": false},
+				{"answer": "80", "correct": true, "selected": false},
+				{"answer": "81", "correct": false, "selected": false},
+				{"answer": "78", "correct": false, "selected": false}	
+			],
+			"level": "Fácil"
+		},
+		{
+			"questionText": "Para el siguiente conjunto de datos: 3, 4, 7, 7, 8, 11, 12, 13. ¿Cuál de los siguientes enunciados es verdadero?",
+			"answers": [
+				{"answer": "La media es mayor que la moda", "correct": true, "selected": false},
+				{"answer": "La mediana es menor que la moda", "correct": false, "selected": false},
+				{"answer": "La media es menor que la mediana", "correct": false, "selected": false},
+				{"answer": "La moda y la mediana son iguales", "correct": false, "selected": false}	
+			],
+			"level": "Fácil"
+		},
+		{
+			"questionText": "Para el siguiente conjunto de datos: 3, 4, 7, 7, 8, 11, 12, 13. ¿Cuál de los siguientes enunciados es verdadero?",
+			"answers": [
+				{"answer": "La media es menor que la moda", "correct": false, "selected": false},
+				{"answer": "La mediana es mayor que la moda", "correct": true, "selected": false},
+				{"answer": "La media es menor que la mediana", "correct": false, "selected": false},
+				{"answer": "La moda y la mediana son iguales", "correct": false, "selected": false}	
+			],
+			"level": "Fácil"
+		},
+		{
+			"questionText": "Para el siguiente conjunto de datos: 3, 4, 7, 7, 8, 11, 12, 13. ¿Cuál de los siguientes enunciados es verdadero?",
+			"answers": [
+				{"answer": "La media es menor que la moda", "correct": false, "selected": false},
+				{"answer": "La mediana es menor que la moda", "correct": false, "selected": false},
+				{"answer": "La media es mayor que la mediana", "correct": true, "selected": false},
+				{"answer": "La moda y la mediana son iguales", "correct": false, "selected": false}	
+			],
+			"level": "Fácil"
+		},
+		{
+			"questionText": "Para el siguiente conjunto de datos: 3, 4, 7, 7, 8, 11, 12, 13. ¿Cuál de los siguientes enunciados es verdadero?",
+			"answers": [
+				{"answer": "La media es menor que la moda", "correct": false, "selected": false},
+				{"answer": "La mediana es menor que la moda", "correct": false, "selected": false},
+				{"answer": "La media es menor que la mediana", "correct": false, "selected": false},
+				{"answer": "La moda y la mediana son diferentes", "correct": true, "selected": false}	
+			],
+			"level": "Fácil"
+		},
+		{
+			"questionText": "¿Cuál de los siguientes enunciados describe datos cuantitativos discretos?",
+			"answers": [
+				{"answer": "El peso de cajas que contienen envases de refrescos", "correct": false, "selected": false},
+				{"answer": "El contenido en mililitros que tiene cada envase", "correct": false, "selected": false},
+				{"answer": "La cantidad de envases que contiene cada caja", "correct": true, "selected": false},
+				{"answer": "Las dimensiones (ancho, largo y altura) de las cajas", "correct": false, "selected": false}	
+			],
+			"level": "Fácil"
+		},
+		{
+			"questionText": "¿Cuál de los siguientes enunciados describe datos cuantitativos continuos?",
+			"answers": [
+				{"answer": "Tipos de vehículos (compacto, sedan, camioneta) que produce cierto fabricante", "correct": false, "selected": false},
+				{"answer": "Número de cilindros de cada vehículo", "correct": false, "selected": false},
+				{"answer": "Rendimiento de gasolina en kilometros por litro", "correct": true, "selected": false},
+				{"answer": "Años de garantía que ofrece el fabricante", "correct": false, "selected": false}	
+			],
+			"level": "Fácil"
+		},
+		{
+			"questionText": "¿Cuál de los siguientes enunciados describe datos cuantitativos discretos infinitos?",
+			"answers": [
+				{"answer": "Tipos de cuentas que brinda a sus clientes un banco", "correct": false, "selected": false},
+				{"answer": "Tasa de interés que paga cada una de las cuentas", "correct": false, "selected": false},
+				{"answer": "Número de sucursales con las que cuenta el banco", "correct": false, "selected": false},
+				{"answer": "Número de clientes que llegan a una sucursal dentro de cierta hora", "correct": true, "selected": false}	
+			],
+			"level": "Fácil"
+		},
+		{
+			"questionText": "¿De qué tipo es una variable que solamente toma como valores satisfecho, neutral e insatisfecho?",
+			"answers": [
+				{"answer": "Cuantitativa", "correct": false, "selected": false},
+				{"answer": "Ordinal", "correct": true, "selected": false},
+				{"answer": "Discreta", "correct": false, "selected": false},
+				{"answer": "Continua", "correct": false, "selected": false}	
+			],
+			"level": "Fácil"
+		},
+		{
+			"questionText": "¿De qué tipo es una variable que solamente toma como valores la edad de personas?",
+			"answers": [
+				{"answer": "Cuantitativa continua", "correct": false, "selected": false},
+				{"answer": "Cualitativa", "correct": false, "selected": false},
+				{"answer": "Cuantitativa discreta", "correct": true, "selected": false},
+				{"answer": "Nominal", "correct": false, "selected": false}	
+			],
+			"level": "Fácil"
+		},
+		{
+			"questionText": "¿De qué tipo es una variable que solamente toma como valores el género de las personas?",
+			"answers": [
+				{"answer": "Nominal", "correct": true, "selected": false},
+				{"answer": "Cuantitativa discreta", "correct": false, "selected": false},
+				{"answer": "Ordinal", "correct": false, "selected": false},
+				{"answer": "Cuantitativa continua", "correct": false, "selected": false}	
+			],
+			"level": "Fácil"
+		},
+		{
+			"questionText": "El primer paso de un experimento consta de 3 posibilidades, para el segundo paso hay 2 y para el tercer paso hay 4, ¿cuántas posibilidades hay para el experimento completo?",
+			"answers": [
+				{"answer": "9", "correct": false, "selected": false},
+				{"answer": "20", "correct": false, "selected": false},
+				{"answer": "24", "correct": true, "selected": false},
+				{"answer": "21", "correct": false, "selected": false}	
+			],
+			"level": "Fácil"
+		},
+		{
+			"questionText": "¿De cuántas formas se puede formar un comité de 5 integrantes de entre 9 personas?",
+			"answers": [
+				{"answer": "130", "correct": false, "selected": false},
+				{"answer": "100", "correct": false, "selected": false},
+				{"answer": "120", "correct": false, "selected": false},
+				{"answer": "126", "correct": true, "selected": false}	
+			],
+			"level": "Fácil"
+		},
+		{
+			"questionText": "¿De cuántas maneras pueden sentarse 10 personas en un banco en el que solo hay asiento para 4?",
+			"answers": [
+				{"answer": "5080", "correct": false, "selected": false},
+				{"answer": "5100", "correct": false, "selected": false},
+				{"answer": "5000", "correct": false, "selected": false},
+				{"answer": "5040", "correct": true, "selected": false}	
+			],
+			"level": "Fácil"
+		},
+		{
+			"questionText": "¿Cuántos números de 4 dígitos se pueden formar empleando los dígitos del 0 al 9 si se permiten las repeticiones (el primer dígito no puede ser cero)?",
+			"answers": [
+				{"answer": "10000", "correct": false, "selected": false},
+				{"answer": "9000", "correct": true, "selected": false},
+				{"answer": "8000", "correct": false, "selected": false},
+				{"answer": "8500", "correct": false, "selected": false}	
+			],
+			"level": "Fácil"
+		},
+		{
+			"questionText": "¿Cuántos números de 4 dígitos se pueden formar empleando los dígitos del 0 al 9 si no se permiten las repeticiones (el primer dígito no puede ser cero)?",
+			"answers": [
+				{"answer": "4500", "correct": false, "selected": false},
+				{"answer": "4516", "correct": false, "selected": false},
+				{"answer": "4536", "correct": true, "selected": false},
+				{"answer": "4550", "correct": false, "selected": false}	
+			],
+			"level": "Fácil"
+		},
+		{
+			"questionText": "De una caja que contiene 6 bolas rojas, 4 blancas y 5 azules se extrae una bola al azar, calcular la probabilidad de que sea roja",
+			"answers": [
+				{"answer": "0.25", "correct": false, "selected": false},
+				{"answer": "0.40", "correct": true, "selected": false},
+				{"answer": "0.33", "correct": false, "selected": false},
+				{"answer": "0.50", "correct": false, "selected": false}	
+			],
+			"level": "Fácil"
+		},
+		{
+			"questionText": "De una caja que contiene 6 bolas rojas, 4 blancas y 5 azules se extrae una bola al azar, calcular la probabilidad de que sea blanca",
+			"answers": [
+				{"answer": "0.2222", "correct": false, "selected": false},
+				{"answer": "0.3333", "correct": false, "selected": false},
+				{"answer": "0.25", "correct": false, "selected": false},
+				{"answer": "0.2667", "correct": true, "selected": false}	
+			],
+			"level": "Fácil"
+		},
+		{
+			"questionText": "De una caja que contiene 6 bolas rojas, 4 blancas y 5 azules se extrae una bola al azar, calcular la probabilidad de que sea azul",
+			"answers": [
+				{"answer": "0.2222", "correct": false, "selected": false},
+				{"answer": "0.3333", "correct": true, "selected": false},
+				{"answer": "0.25", "correct": false, "selected": false},
+				{"answer": "0.2667", "correct": false, "selected": false}
+			],
+			"level": "Fácil"
+		},
+		{
+			"questionText": "Se lanza una moneda 1000 veces y se encuentra que 532 veces cayó cara. Calcular la probabilidad de observar cruz.",
+			"answers": [
+				{"answer": "0.532", "correct": false, "selected": false},
+				{"answer": "0.478", "correct": false, "selected": false},
+				{"answer": "0.498", "correct": false, "selected": false},
+				{"answer": "0.468", "correct": true, "selected": false}	
+			],
+			"level": "Fácil"
+		},
+		{
+			"questionText": "Se lanza un dado una sola vez. Calcular la probabilidad de obtener un 2 o un 5.",
+			"answers": [
+				{"answer": "0.1667", "correct": false, "selected": false},
+				{"answer": "0.5", "correct": false, "selected": false},
+				{"answer": "0.3333", "correct": true, "selected": false},
+				{"answer": "0.25", "correct": false, "selected": false}	
+			],
+			"level": "Fácil"
+		},
+		{
+			"questionText": "Determinar la probabilidad de que en 3 lanzamientos de una moneda se obtenga 3 águilas.",
+			"answers": [
+				{"answer": "0.125", "correct": true, "selected": false},
+				{"answer": "0.5", "correct": false, "selected": false},
+				{"answer": "0.3333", "correct": false, "selected": false},
+				{"answer": "0.25", "correct": false, "selected": false}	
+			],
+			"level": "Fácil"
+		},
+		{
+			"questionText": "De una caja que contiene 6 bolas rojas, 4 blancas y 5 azules se extrae una bola al azar, calcular la probabilidad de que no sea roja",
+			"answers": [
+				{"answer": "0.5", "correct": false, "selected": false},
+				{"answer": "0.6", "correct": true, "selected": false},
+				{"answer": "0.7", "correct": false, "selected": false},
+				{"answer": "0.4", "correct": false, "selected": false}	
+			],
+			"level": "Intermedio"
+		},
+		{
+			"questionText": "De una caja que contiene 6 bolas rojas, 4 blancas y 5 azules se extrae una bola al azar, calcular la probabilidad de que no sea blanca",
+			"answers": [
+				{"answer": "0.5", "correct": false, "selected": false},
+				{"answer": "0.4", "correct": false, "selected": false},
+				{"answer": "0.6667", "correct": true, "selected": false},
+				{"answer": "0.3333", "correct": false, "selected": false}	
+			],
+			"level": "Intermedio"
+		},
+		{
+			"questionText": "De una baraja de 52 cartas se extrae una carta al azar. Calcular la probabilidad de que la carta sea un as.",
+			"answers": [
+				{"answer": "0.1", "correct": false, "selected": false},
+				{"answer": "0.0833", "correct": false, "selected": false},
+				{"answer": "0.0666", "correct": false, "selected": false},
+				{"answer": "0.0769", "correct": true, "selected": false}	
+			],
+			"level": "Intermedio"
+		},
+		{
+			"questionText": "De una baraja de 52 cartas se extrae una carta al azar. Calcular la probabilidad de que la carta sea un corazón.",
+			"answers": [
+				{"answer": "0.25", "correct": true, "selected": false},
+				{"answer": "0.2", "correct": false, "selected": false},
+				{"answer": "0.3", "correct": false, "selected": false},
+				{"answer": "0.1", "correct": false, "selected": false}	
+			],
+			"level": "Intermedio"
+		},
+		{
+			"questionText": "De una baraja de 52 cartas se extrae una carta al azar. Calcular la probabilidad de que la carta sea un trébol.",
+			"answers": [
+				{"answer": "0.3", "correct": false, "selected": false},
+				{"answer": "0.2", "correct": false, "selected": false},
+				{"answer": "0.25", "correct": true, "selected": false},
+				{"answer": "0.22", "correct": false, "selected": false}	
+			],
+			"level": "Intermedio"
+		},
+		{
+			"questionText": "Se lanza un par de dados una sola vez y se suman los puntos en las caras superiores. Calcular la probabilidad de obtener un 7.",
+			"answers": [
+				{"answer": "0.2", "correct": false, "selected": false},
+				{"answer": "0.1666", "correct": true, "selected": false},
+				{"answer": "0.3333", "correct": false, "selected": false},
+				{"answer": "0.25", "correct": false, "selected": false}	
+			],
+			"level": "Intermedio"
+		},
+		{
+			"questionText": "Se lanza un par de dados una sola vez y se suman los puntos en las caras superiores. Calcular la probabilidad de obtener un 9.",
+			"answers": [
+				{"answer": "0.2222", "correct": false, "selected": false},
+				{"answer": "0.2", "correct": false, "selected": false},
+				{"answer": "0.1", "correct": false, "selected": false},
+				{"answer": "0.1111", "correct": true, "selected": false}	
+			],
+			"level": "Intermedio"
+		},
+		{
+			"questionText": "Se lanza un par de dados una sola vez y se suman los puntos en las caras superiores. Calcular la probabilidad de obtener un 4 o menos.",
+			"answers": [
+				{"answer": "0.1111", "correct": false, "selected": false},
+				{"answer": "0.2", "correct": false, "selected": false},
+				{"answer": "0.1666", "correct": true, "selected": false},
+				{"answer": "0.25", "correct": false, "selected": false}	
+			],
+			"level": "Intermedio"
+		},
+		{
+			"questionText": "Se lanza un par de dados una sola vez y se suman los puntos en las caras superiores. Calcular la probabilidad de obtener un 3 o un 11.",
+			"answers": [
+				{"answer": "0.1666", "correct": false, "selected": false},
+				{"answer": "0.1111", "correct": true, "selected": false},
+				{"answer": "0.2", "correct": false, "selected": false},
+				{"answer": "0.1", "correct": false, "selected": false}	
+			],
+			"level": "Intermedio"
+		},
+		{
+			"questionText": "En una encuesta se encontró que el 46% de los encuestados habían rentado un automóvil por razones de trabajo, 54% por razones personales y 30% por razones de trabajo y personales. Calcular la probabilidad de que un encuestado haya rentado un automóvil por razones de trabajo o por razones personales.",
+			"answers": [
+				{"answer": "0.65", "correct": false, "selected": false},
+				{"answer": "0.80", "correct": false, "selected": false},
+				{"answer": "0.70", "correct": true, "selected": false},
+				{"answer": "0.67", "correct": false, "selected": false}	
+			],
+			"level": "Intermedio"
+		},
+		{
+			"questionText": "Calcular la probabilidad de que en un solo lanzamiento de un dado se obtenga un número menor que cuatro dado que se obtuvo un número impar",
+			"answers": [
+				{"answer": "0.67", "correct": true, "selected": false},
+				{"answer": "0.50", "correct": false, "selected": false},
+				{"answer": "0.75", "correct": false, "selected": false},
+				{"answer": "0.80", "correct": false, "selected": false}	
+			],
+			"level": "Intermedio"
+		},
+		{
+			"questionText": "Una fábrica contiene dos líneas de ensamble A1 y A2 las cuales producen 300 y 500 artículos al día, respectivamente. Se sabe que la línea A1 produce 2% de artículos defectuosos mientras que la línea A2 produce 5%. Si se selecciona un artículo de la producción total, calcular la probabilidad de que sea defectuoso.",
+			"answers": [
+				{"answer": "0.03375", "correct": false, "selected": false},
+				{"answer": "0.03575", "correct": false, "selected": false},
+				{"answer": "0.03175", "correct": false, "selected": false},
+				{"answer": "0.03875", "correct": true, "selected": false}	
+			],
+			"level": "Intermedio"
+		},
+		{
+			"questionText": "En cierto proceso de producción, la probabilidad de encontrar una unidad defectuosa es 0.06. Si se selecciona una muestra de 15 unidades, calcular la probabilidad de que la muestra contenga entre 3 y 6 unidades defectuosas.",
+			"answers": [
+				{"answer": "0.0571", "correct": true, "selected": false},
+				{"answer": "0.0613", "correct": false, "selected": false},
+				{"answer": "0.0649", "correct": false, "selected": false},
+				{"answer": "0.0723", "correct": false, "selected": false}	
+			],
+			"level": "Intermedio"
+		},
+		{
+			"questionText": "Si 20% de los tornillos que produce una máquina están defectuosos, determinar la probabilidad que de 4 tornillos elegidos al azar, 1 esté defectuoso.",
+			"answers": [
+				{"answer": "0.4296", "correct": false, "selected": false},
+				{"answer": "0.4096", "correct": true, "selected": false},
+				{"answer": "0.4196", "correct": false, "selected": false},
+				{"answer": "0.4396", "correct": false, "selected": false}	
+			],
+			"level": "Intermedio"
+		},
+		{
+			"questionText": "Si 20% de los tornillos que produce una máquina están defectuosos, determinar la probabilidad que de 4 tornillos elegidos al azar ninguno esté defectuoso.",
+			"answers": [
+				{"answer": "0.4396", "correct": false, "selected": false},
+				{"answer": "0.4196", "correct": false, "selected": false},
+				{"answer": "0.4296", "correct": false, "selected": false},
+				{"answer": "0.4096", "correct": true, "selected": false}	
+			],
+			"level": "Intermedio"
+		},
+		{
+			"questionText": "El propietario de un negocio sabe que, en promedio, llegan a su negocio 100 clientes por hora. Calcular la probabilidad de que en cierto periodo de 3 minutos nadie entre al negocio.",
+			"answers": [
+				{"answer": "0.00573", "correct": false, "selected": false},
+				{"answer": "0.00473", "correct": false, "selected": false},
+				{"answer": "0.00673", "correct": true, "selected": false},
+				{"answer": "0.00773", "correct": false, "selected": false}	
+			],
+			"level": "Intermedio"
+		},
+		{
+			"questionText": "Las llamadas a un centro de atención telefónica llegan, en promedio, 2.7 llamadas por minuto. Calcular la probabilidad de que lleguen no más de 4 llamadas en un minuto.",
+			"answers": [
+				{"answer": "0.8475", "correct": false, "selected": false},
+				{"answer": "0.8629", "correct": true, "selected": false},
+				{"answer": "0.8844", "correct": false, "selected": false},
+				{"answer": "0.8123", "correct": false, "selected": false}	
+			],
+			"level": "Intermedio"
+		},
+		{
+			"questionText": "Una caja contiene 2 canicas rojas y 3 azules. Calcular la probabilidad de que si se extraen 2 canicas al azar sin reposición (sin reemplazo) las 2 sean azules.",
+			"answers": [
+				{"answer": "0.2", "correct": false, "selected": false},
+				{"answer": "0.25", "correct": false, "selected": false},
+				{"answer": "0.3", "correct": true, "selected": false},
+				{"answer": "0.3333", "correct": false, "selected": false}	
+			],
+			"level": "Intermedio"
+		},
+		{
+			"questionText": "Una caja contiene 2 canicas rojas y 3 azules. Calcular la probabilidad de que si se extraen 2 canicas al azar sin reposición (sin reemplazo) las 2 sean rojas.",
+			"answers": [
+				{"answer": "0.2", "correct": false, "selected": false},
+				{"answer": "0.1", "correct": true, "selected": false},
+				{"answer": "0.3", "correct": false, "selected": false},
+				{"answer": "0.25", "correct": false, "selected": false}	
+			],
+			"level": "Intermedio"
+		},
+		{
+			"questionText": "¿Cuántas palabras se pueden formar a partir de 5 letras si todas las letras son diferentes?",
+			"answers": [
+				{"answer": "110", "correct": false, "selected": false},
+				{"answer": "100", "correct": false, "selected": false},
+				{"answer": "120", "correct": true, "selected": false},
+				{"answer": "130", "correct": false, "selected": false}	
+			],
+			"level": "Intermedio"
+		},
+		{
+			"questionText": "Determinar la probabilidad de que en 3 lanzamientos de una moneda se obtenga 2 soles y un águila.",
+			"answers": [
+				{"answer": "0.4", "correct": false, "selected": false},
+				{"answer": "0.375", "correct": true, "selected": false},
+				{"answer": "0.333", "correct": false, "selected": false},
+				{"answer": "0.3", "correct": false, "selected": false}	
+			],
+			"level": "Intermedio"
+		},
+		{
+			"questionText": "Determinar la probabilidad de que en 3 lanzamientos de una moneda se obtenga por lo menos 1 águila.",
+			"answers": [
+				{"answer": "0.825", "correct": false, "selected": false},
+				{"answer": "0.75", "correct": false, "selected": false},
+				{"answer": "0.8", "correct": false, "selected": false},
+				{"answer": "0.875", "correct": true, "selected": false}	
+			],
+			"level": "Intermedio"
+		},
+		{
+			"questionText": "Una caja contiene 2 canicas rojas y 3 azules. Calcular la probabilidad de que si se extraen 2 canicas al azar sin reposición (sin reemplazo) una sea roja y la otra azul.",
+			"answers": [
+				{"answer": "0.6", "correct": true, "selected": false},
+				{"answer": "0.5", "correct": false, "selected": false},
+				{"answer": "0.6667", "correct": false, "selected": false},
+				{"answer": "0.625", "correct": false, "selected": false}	
+			],
+			"level": "Difícil"
+		},
+		{
+			"questionText": "Una caja contiene 3 canicas azules y 2 rojas mientras que otra caja contiene 2 canicas azules y 5 rojas. Una canica extraída al azar de una de las cajas resulta ser azul, calcular la probabilidad de que provenga de la primera caja.",
+			"answers": [
+				{"answer": "0.6574", "correct": false, "selected": false},
+				{"answer": "0.6674", "correct": false, "selected": false},
+				{"answer": "0.6774", "correct": true, "selected": false},
+				{"answer": "0.6474", "correct": false, "selected": false}	
+			],
+			"level": "Difícil"
+		},
+		{
+			"questionText": "La urna A tiene 2 bolas blancas y 3 negras; la urna B 4 blancas y 1 negra y la urna C 3 blancas y 4 negras. Se extrae una bola de una de las urnas y resulta ser blanca, encontrar la probabilidad que provenga de la urna A.",
+			"answers": [
+				{"answer": "0.2456", "correct": true, "selected": false},
+				{"answer": "0.2256", "correct": false, "selected": false},
+				{"answer": "0.2556", "correct": false, "selected": false},
+				{"answer": "0.2356", "correct": false, "selected": false}	
+			],
+			"level": "Difícil"
+		},
+		{
+			"questionText": "Una fábrica contiene dos líneas de ensamble A1 y A2 las cuales producen 300 y 500 artículos al día, respectivamente. Se sabe que la línea A1 produce 2% de artículos defectuosos mientras que la línea A2 produce 5%. Si se selecciona un artículo de la producción total y está defectuoso, calcular la probabilidad de que haya sido fabricado por la línea A2.",
+			"answers": [
+				{"answer": "0.7920", "correct": false, "selected": false},
+				{"answer": "0.8065", "correct": true, "selected": false},
+				{"answer": "0.8155", "correct": false, "selected": false},
+				{"answer": "0.8210", "correct": false, "selected": false}	
+			],
+			"level": "Difícil"
+		},
+		{
+			"questionText": "Si 20% de los tornillos que produce una máquina están defectuosos, determinar la probabilidad que de 4 tornillos elegidos al azar, menos de 2 estén defectuosos.",
+			"answers": [
+				{"answer": "0.8092", "correct": false, "selected": false},
+				{"answer": "0.8292", "correct": false, "selected": false},
+				{"answer": "0.8192", "correct": true, "selected": false},
+				{"answer": "0.8392", "correct": false, "selected": false}	
+			],
+			"level": "Difícil"
+		},
+		{
+			"questionText": "El propietario de un negocio sabe que, en promedio, llegan a su negocio 100 clientes por hora. Calcular la probabilidad de que en cierto periodo de 3 minutos entren más de 5 clientes al negocio.",
+			"answers": [
+				{"answer": "0.333", "correct": false, "selected": false},
+				{"answer": "0.3", "correct": false, "selected": false},
+				{"answer": "0.384", "correct": true, "selected": false},
+				{"answer": "0.444", "correct": false, "selected": false}	
+			],
+			"level": "Difícil"
+		},
+		{
+			"questionText": "Las llamadas a un centro de atención telefónica llegan, en promedio, 2.7 llamadas por minuto. Calcular la probabilidad de que lleguen más de 4 llamadas en un periodo de 2 minutos.",
+			"answers": [
+				{"answer": "0.6267", "correct": true, "selected": false},
+				{"answer": "0.6666", "correct": false, "selected": false},
+				{"answer": "0.6762", "correct": false, "selected": false},
+				{"answer": "0.6555", "correct": false, "selected": false}	
+			],
+			"level": "Difícil"
+		},
+		{
+			"questionText": "La probabilidad de que un tipo de foco falle en cierto día es 0.001. Calcular la probabilidad de que el foco falle después del quinto día.",
+			"answers": [
+				{"answer": "0.965", "correct": false, "selected": false},
+				{"answer": "0.975", "correct": false, "selected": false},
+				{"answer": "0.955", "correct": false, "selected": false},
+				{"answer": "0.995", "correct": true, "selected": false}	
+			],
+			"level": "Difícil"
+		},
+		{
+			"questionText": "¿Cuántas palabras se pueden formar a partir de 5 letras si 2 letras son idénticas?",
+			"answers": [
+				{"answer": "70", "correct": false, "selected": false},
+				{"answer": "60", "correct": true, "selected": false},
+				{"answer": "80", "correct": false, "selected": false},
+				{"answer": "90", "correct": false, "selected": false}	
+			],
+			"level": "Difícil"
+		},
+		{
+			"questionText": "Determinar la probabilidad de que en 3 lanzamientos de una moneda se obtenga no más de 1 sol.",
+			"answers": [
+				{"answer": "0.4", "correct": false, "selected": false},
+				{"answer": "0.25", "correct": false, "selected": false},
+				{"answer": "0.5", "correct": true, "selected": false},
+				{"answer": "0.75", "correct": false, "selected": false}	
+			],
+			"level": "Difícil"
+		},
+		{
+			"questionText": "El diámetro interno medio de 200 rondanas fabricadas por una máquina es 0.502 pulgadas y desviación estándar de 0.005 pulgadas.",
+			"answers": [
+				{"answer": "Opción1", "correct": true, "selected": false},
+				{"answer": "Opción2", "correct": false, "selected": false},
+				{"answer": "Opción3", "correct": false, "selected": false},
+				{"answer": "Opción4", "correct": false, "selected": false}	
+			],
+			"level": "Difícil"
+		}
+	]
+}

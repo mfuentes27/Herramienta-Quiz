@@ -1,0 +1,15 @@
+<ion-content padding class="page-login">
+  <div class="center" id="container">
+    <div heading-column-lr>
+      <h1 big-heading>Inicia Sesión</h1>
+    </div>
+    <ion-label>
+      Ingresa tu matrícula para continuar.
+    </ion-label>
+    <ion-item class="user">
+      <ion-input placeholder="Matrícula" type="text" #username></ion-input>
+    </ion-item>
+    <div linespace></div>
+    <button ion-button  class="login-button" round (click)="getUsers(username.value)">Iniciar Sesión</button>
+  </div>
+</ion-content>

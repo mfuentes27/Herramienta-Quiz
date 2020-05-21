@@ -1,0 +1,233 @@
+
+   ion-slide {
+            align-items: flex-start;
+            contain: size style;
+        }
+
+        ion-item {
+            margin-bottom: 5px;
+            font-size: 1.2em;
+            background-color: map-get($colors, primary);
+        }
+
+
+        .start-slide {
+            justify-content: center;
+            align-items: center;
+        }
+
+    #progress-circle{
+        transform: rotate(-90deg);
+        
+    }
+
+    .timer-text {
+        transform: rotate(90deg);
+        transform-origin: center;
+        font-size: 50px;
+        font-family: "RobotoCondensed-Bold" !important;
+        text-anchor: middle;
+        font-weight: 300;
+        fill: #333;
+    }
+    .get-quiz-button{
+        background: #7c8cb4;
+        font-family: "RobotoCondensed-Bold" !important;
+        float: none;
+        margin-bottom: 10px;
+    }
+    
+    .instrucciones{
+        font-family: "RobotoCondensed-Regular" !important;
+        font-size: 21px;
+        color: #000;
+        text-align: left;
+        margin-left: 10px;
+        text-justify: inter-word;
+    }
+    
+.title{
+    margin-top: 10px;
+    font-family: "RobotoCondensed-Bold" !important;
+        font-size: 23px;
+        opacity: .8;
+        color: #000;
+        display: block;
+}
+
+.pregunta-rango{
+    float:left;
+    margin-left: 20px;
+    font-family: "RobotoCondensed-Regular" !important;
+    font-size: 20px;
+    color: #000;
+    display: block;
+}
+
+.level{
+    margin-top: 23px;
+   float: right;
+    margin-right: 20px;
+    display: inline-flex;
+}
+
+.facil{
+    margin-left: 1px;
+    color: #77dd77;
+}
+
+.medio{
+    margin-left: 1px;
+    color: #f3d97b;
+}
+
+.dificil{
+    margin-left: 1px;
+    color: #d86566;
+}
+
+ion-icon{
+    margin-top: 6px;
+    margin-right: 4px;
+    float: right;
+}
+
+.current-question{
+    font-family: "RobotoCondensed-Light" !important;
+    float: left;
+    margin-top: 10px;
+}
+
+.current-veredict{
+    font-family: "RobotoCondensed-Light" !important;
+    float: right;
+    margin-top: 10px;
+}
+
+.pregunta{
+    margin-top: 30px;
+    font-family: "RobotoCondensed-Bold";
+    font-size: 22px;
+    color: #000;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.respuestas{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 18px;
+    color: #000;
+}
+
+.inner{
+    display:inline-block;
+    width:100%;
+  }
+
+.ion-card-answers{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.ion-card-question{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 10px !important;
+}
+    
+ion-card{
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100% !important;
+    margin: 0 !important; 
+}
+
+.instruction-img{
+    margin-top: 5px;
+    height: 150px;
+    width: 250px;
+    margin-left: 35px;
+}
+
+.next-arrow{
+    width: 50px !important;
+    height: 50px;
+    float: right;
+    margin-right: 20px;
+    bottom:0px;
+}
+
+.previous-arrow{
+    width: 50px !important;
+    height: 50px;
+    float: left;
+    margin-left: 20px;
+    bottom:0px;
+}
+
+.get-results-button{
+    background: #474f74;
+    font-family: "RobotoCondensed-Bold" !important;
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.card-results{
+    background: rgba(255,255,255,0.7);
+    width:100% !important;
+    padding-left: 10px;
+    margin-bottom: 10px !important;     
+
+}
+
+.scroll-content{
+    margin-top: 5px !important;
+    overflow-y: auto;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.text-results{
+    font-family: "RobotoCondensed-Regular" !important;
+    font-size: 17px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.results-summary{
+    background: rgba(128, 140, 178, 1);
+    font-family: "RobotoCondensed-Bold" !important;
+    font-size: 25px;
+}
+
+.score{
+    font-family: "RobotoCondensed-Bold" !important;
+    font-size: 20px;
+    margin-right: 20px;
+    float: right;
+}
+
+.answers-result{
+    font-family: "RobotoCondensed-Bold" !important;
+    font-size: 16px !important;
+    margin-top: 5px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.answers-correct{
+    font-family: "RobotoCondensed-Bold" !important;
+    font-size: 16px !important;
+    margin-top: -5px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.results{
+    margin-top: 0px;
+}

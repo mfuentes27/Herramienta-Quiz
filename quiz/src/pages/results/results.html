@@ -1,0 +1,118 @@
+<<ion-content>
+    <ion-slides #slides>
+        <ion-slide [options]="{onlyExternal: false}" class="start-slide">
+            <ion-card>
+                <ion-card-subtitle class="title">Resultados</ion-card-subtitle>
+                <ion-img style="background: transparent !important" class="instruction-img"
+                    src='assets/imgs/results.png'>
+                </ion-img>
+                <ion-card-title class="instrucciones">Selecciona la opción que desees ver</ion-card-title>
+                <button ion-button style="float: left; margin-left: 30px" class="get-result-button" round small
+                    (click)="getFirstResult()">{{results.first_results.result_post[0].fecha | date: 'dd/MM/yyyy'}}</button>
+                <button ion-button style="float: right; margin-right: 30px" class="get-result-button" round small
+                    (click)="getSecondResult()">{{results.second_results.result_post[0].fecha | date: 'dd/MM/yyyy'}}</button>
+            </ion-card>
+        </ion-slide>
+
+        <ion-slide>
+            <ion-header>
+                <ion-card class="results-summary">
+                    <ion-row>
+                        <button ion-button clear class="go-back-button" medium (click)="goToStart()">
+                            <ion-icon class="icono" name="md-arrow-round-back" style="zoom:1.2; color: white;"
+                                slot="start"></ion-icon>
+                        </button>
+                        <ion-card-title class="results-title">Resultados</ion-card-title>
+                    </ion-row>
+                    <ion-card-content>
+                        <ion-row style="margin-top: -20px;">
+                            <ion-label style="color: white; font-family: RobotoCondensed-Bold !important;">{{results.first_results.result_post[9].calificacion}}</ion-label>
+                            <ion-label style="color: white; font-family: RobotoCondensed-Bold !important;">
+                                {{results.first_results.result_post[0].fecha | date: 'dd/MM/yyyy'}}</ion-label>
+                        </ion-row>
+                        <ion-row style="margin-top: -20px;">
+                            <ion-label style="color: white; font-family: RobotoCondensed-Bold !important;">Puntaje</ion-label>
+                            <ion-label style="color: white; font-family: RobotoCondensed-Bold !important;">Fecha</ion-label>
+                        </ion-row>
+                    </ion-card-content>
+                </ion-card>
+            </ion-header>
+
+            <ion-list class="scroll-content">
+                <div style="margin-top: 140px;">
+                    <ion-card class="card-results" *ngFor="let result of results.first_results.result_post; let i = index;">
+                        <ion-card-subtitle class="current-question">Pregunta {{i+1}}</ion-card-subtitle>
+
+                        <ion-card-title class="text-results">{{results.first_results.result_post[i].pregunta}}
+                        </ion-card-title>
+                        <ion-card-content>
+                            <ion-list>
+                                <ion-row>
+                                    <div class="inner">
+                                        <ion-label class="answers-result" text-wrap>Respuesta seleccionada:
+                                            {{results.first_results.result_post[i].respuesta_seleccionada}}</ion-label>
+                                    </div>
+                                </ion-row>
+                                <ion-label class="answers-correct" text-wrap>Respuesta correcta:
+                                    {{results.first_results.result_post[i].respuesta_correcta}}</ion-label>
+                            </ion-list>
+                        </ion-card-content>
+                    </ion-card>
+                </div>
+            </ion-list>
+        </ion-slide>
+
+
+        <ion-slide>
+            <ion-header>
+                <ion-card class="results-summary">
+                    <ion-row>
+                        <button ion-button clear class="go-back-button" medium (click)="goToStart()">
+                            <ion-icon class="icono" name="md-arrow-round-back" style="zoom:1.2; color: white;"
+                                slot="start"></ion-icon>
+                        </button>
+                        <ion-card-title class="results-title">Resultados</ion-card-title>
+                    </ion-row>
+                    <ion-card-content>
+                        <ion-row style="margin-top: -20px;">
+                            <ion-label style="color: white; font-family: RobotoCondensed-Bold !important;">{{results.second_results.result_post[9].calificacion}}</ion-label>
+                            <ion-label style="color: white; font-family: RobotoCondensed-Bold !important;">
+                                {{results.second_results.result_post[0].fecha | date: 'dd/MM/yyyy'}}</ion-label>
+                        </ion-row>
+                        <ion-row style="margin-top: -20px;">
+                            <ion-label style="color: white; font-family: RobotoCondensed-Bold !important;">Puntaje</ion-label>
+                            <ion-label style="color: white; font-family: RobotoCondensed-Bold !important;">Fecha</ion-label>
+                        </ion-row>
+                    </ion-card-content>
+                </ion-card>
+            </ion-header>
+
+            <ion-list class="scroll-content">
+                <div style="margin-top: 140px;">
+
+
+                    <ion-card class="card-results" *ngFor="let result of results.second_results.result_post; let i = index;">
+                        <ion-card-subtitle class="current-question">Pregunta {{i+1}}</ion-card-subtitle>
+
+                        <ion-card-title class="text-results">{{results.second_results.result_post[i].pregunta}}
+                        </ion-card-title>
+                        <ion-card-content>
+                            <ion-list>
+                                <ion-row>
+                                    <div class="inner">
+                                        <ion-label class="answers-result" text-wrap>Respuesta seleccionada:
+                                            {{results.second_results.result_post[i].respuesta_seleccionada}}</ion-label>
+                                    </div>
+                                </ion-row>
+                                <ion-label class="answers-correct" text-wrap>Respuesta correcta:
+                                    {{results.second_results.result_post[i].respuesta_correcta}}</ion-label>
+                            </ion-list>
+                        </ion-card-content>
+                    </ion-card>
+                </div>
+            </ion-list>
+        </ion-slide>
+
+
+    </ion-slides>
+</ion-content>>
